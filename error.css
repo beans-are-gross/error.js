@@ -1,0 +1,27 @@
+#error-container{
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#error{
+  background-color: white;
+  width: 500px;
+
+  text-align: center;
+  padding: 10px;
+  border-radius: 1em;
+}
+
+#error-info{
+  height: 150px;
+  overflow-y: scroll;
+}
