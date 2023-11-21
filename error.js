@@ -2,7 +2,7 @@ window.addEventListener("error", (ErrorEvent) => {
   const errorJs = document.getElementById("error-js");
 
   errorJs.innerHTML =
-    '<div id="error-container"> <div id="error"> <img src="error.svg" /> <h1>Error</h1> <p>Your code has crashed.</p> <div id="error-info"> <h2>Error Info:</h2> <h3>Message:</h3> <p>' +
+    '<div id="error-container"> <div id="error"> <img src="https://raw.githubusercontent.com/beans-are-gross/error.js/main/error.svg" /> <h1>Error</h1> <p>Your code has crashed.</p> <div id="error-info"> <h2>Error Info:</h2> <h3>Message:</h3> <p>' +
     ErrorEvent.message +
     "</p> <h3>Location:</h3> <p>" +
     ErrorEvent.filename +
