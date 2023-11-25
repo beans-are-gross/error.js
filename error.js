@@ -1,4 +1,7 @@
+console.info("error.js: Initialized successfully");
+
 window.addEventListener("error", (error) => {
+  console.error("error.js: " + error.message);
   const errorJs = document.getElementById("error-js");
 
   errorJs.innerHTML =
