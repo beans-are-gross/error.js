@@ -1,5 +1,3 @@
-console.info("error.js: Initialized successfully");
-
 window.addEventListener("error", (error) => {
   console.error("error.js: " + error.message);
   const errorJs = document.getElementById("error-js");
@@ -17,3 +15,5 @@ window.addEventListener("error", (error) => {
     error.error +
     "</p> </div> </div> </div>";
 });
+
+console.info("error.js: Initialized successfully");
